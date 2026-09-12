@@ -15,11 +15,17 @@ export function About() {
             <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground">
               I&apos;m a creative-focused Social Media &amp; Content Creator who enjoys turning ideas into
               engaging visual content. I specialize in reels, posters, and storytelling that connects well
-              with audiences. I care about both creativity and performance   making content that looks good
-              and actually works. With experience in planning content, leading a small creative team,
-              analyzing trends, and improving engagement, I&apos;ve built a strong foundation in both
-              creativity and marketing basics. My goal is simple: create clean, impactful, and
-              scroll-stopping content that supports a brand&apos;s growth.
+              with audiences. I care about both creativity and performance, making content that looks good
+              and actually works.
+            </p>
+          </Reveal>
+          <Reveal delay={0.16}>
+            <p className="mt-4 text-pretty text-lg leading-relaxed text-muted-foreground">
+              At Hashtag Agency (Feb to Apr 2026) I worked full-time across content, ads, production,
+              and strategy for 30+ brands. I owned outcomes, from 12 scripts for a real
+              estate client to a 1.8M+ views reel as on-camera talent, with 25+ videos, 25+
+              scripts, and 10+ campaigns. My goal is simple: create clean, impactful, scroll-stopping
+              content that supports a brand&apos;s growth.
             </p>
           </Reveal>
         </div>

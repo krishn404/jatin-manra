@@ -2,6 +2,7 @@ import { About } from "@/components/about"
 import { Skills } from "@/components/skills"
 import { SiteNav } from "@/components/site-nav"
 import { Hero } from "@/components/hero"
+import { Internship } from "@/components/internship"
 import { FeaturedWorks } from "@/components/featured-works"
 import { HighlightRow } from "@/components/highlight-row"
 import { Services } from "@/components/services"
@@ -15,6 +16,7 @@ export default function Page() {
       <SiteNav />
       <Hero />
       <About />
+      <Internship />
       <Skills />
       <FeaturedWorks />
       <HighlightRow />

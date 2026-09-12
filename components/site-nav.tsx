@@ -19,8 +19,8 @@ export function SiteNav() {
       <nav aria-label="Primary" className="hidden items-center gap-8 text-sm md:flex">
         {[
           { label: "About", href: "#about" },
-          { label: "Skills", href: "#skills" },
-          { label: "Services", href: "#services" },
+          { label: "Experience", href: "#experience" },
+          { label: "Work", href: "#work" },
           { label: "Contact", href: "#contact" },
         ].map((item) => (
           <a

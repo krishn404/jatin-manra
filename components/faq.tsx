@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "Do you understand analytics and ads?",
-    a: "At a beginner level. I can read basic insights and connect performance to content decisions   I focus on practical analytics rather than pretending to be an ads expert.",
+    a: "Yes. At Hashtag Agency I managed 10+ Meta Ads campaigns, generated 1,014+ leads at ~₹40 blended CPL, and used A/B tests to drop CPL (a fitness account, ₹97 to ₹28). I still treat qualification and conversion tracking as the next skill to deepen.",
   },
   {
     q: "What's the best way to reach you?",

@@ -9,6 +9,7 @@ const columns = [
     links: [
       { label: "Home", href: "#top" },
       { label: "Works", href: "#work" },
+      { label: "Experience", href: "#experience" },
       { label: "About", href: "#about" },
       { label: "Contact", href: "#contact" },
     ],
@@ -16,10 +17,8 @@ const columns = [
   {
     title: "Connect",
     links: [
-      { label: "Instagram", href: "#contact" },
-      { label: "TikTok", href: "#contact" },
-      { label: "YouTube", href: "#contact" },
-      { label: "Threads", href: "#contact" },
+      { label: "Instagram", href: "https://instagram.com/clipsbymanra" },
+      { label: "LinkedIn", href: "https://www.linkedin.com/in/manrajatin" },
     ],
   },
   {
@@ -70,7 +69,13 @@ export function FooterCta() {
               <ul className="mt-4 space-y-3">
                 {col.links.map((link) => (
                   <li key={link.label}>
-                    <a href={link.href} className="text-white/90 transition-colors hover:text-white">
+                    <a
+                      href={link.href}
+                      className="text-white/90 transition-colors hover:text-white"
+                      {...(link.href.startsWith("http")
+                        ? { target: "_blank", rel: "noopener noreferrer" }
+                        : {})}
+                    >
                       {link.label}
                     </a>
                   </li>

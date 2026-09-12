@@ -58,15 +58,15 @@ const services: Service[] = [
   },
   {
     number: "04",
-    title: "Marketing Fundamentals (Beginner-Level)",
+    title: "Meta Ads & Performance",
     icon: <BarChart3 className="h-5 w-5 text-sky-600" />,
     iconBg: "bg-sky-100 dark:bg-sky-500/20",
     description:
-      "I have a beginner-level understanding of analytics and ads through certifications. I can read basic insights, understand how content performance connects to reach and engagement, and use this knowledge to refine content decisions. I combine creative work with a basic understanding of how metrics shape online growth.",
+      "I run lead-gen campaigns, A/B tests, and daily pipeline tracking. In two months at Hashtag Agency I managed ₹40,374+ in spend across 10+ live campaigns, 1,014+ leads, and a ~₹40 blended CPL, then used those numbers to decide what to scale.",
     how: [
-      "I check basic insights to understand reach and engagement.",
-      "I connect data with content decisions (what to post, what to avoid).",
-      "I focus on learning practical analytics instead of pretending to be an ads expert.",
+      "I update lead sheets daily and watch CPL, reach, and creative fatigue.",
+      "I A/B test creatives to drop cost. A fitness campaign went from ₹97 to ₹28 CPL.",
+      "I connect ad results back to content: what to shoot next, what to cut.",
     ],
   },
 ]
@@ -76,7 +76,7 @@ export function Services() {
     <section id="services" className="mx-auto max-w-6xl px-6 py-20 md:py-28">
       <div className="mb-14 grid gap-6 md:grid-cols-[1fr_2fr]">
         <Reveal>
-          <p className="text-lg text-muted-foreground">Services</p>
+          <p className="text-lg text-muted-foreground">Areas of Expertise</p>
         </Reveal>
         <Reveal as="h2" delay={0.05} className="text-pretty text-2xl font-semibold leading-snug tracking-tight md:text-4xl">
           What I offer.{" "}
