@@ -16,9 +16,9 @@ export function Internship() {
       <div className="grid gap-6 md:grid-cols-[1fr_2fr]">
         <Reveal><p className="text-lg text-muted-foreground">Experience</p></Reveal>
         <div>
-          <Reveal as="h2" className="text-pretty text-3xl font-semibold leading-tight tracking-tight md:text-5xl">A hands-on mix of content, ads, and production.</Reveal>
+          <Reveal as="h2" className="text-pretty text-3xl font-semibold leading-tight tracking-tight md:text-5xl">A hands-on mix of content, ads, production, and leadership.</Reveal>
           <Reveal delay={0.08} as="p" className="mt-4 max-w-3xl text-pretty text-lg leading-relaxed text-muted-foreground">
-            I have worked across automotive, real estate, fitness, aviation, consumer electronics, and F&B. The common thread has been owning the work closely, whether that meant writing the script, checking the campaign, or figuring out why something was not landing.
+            I have worked across automotive, real estate, fitness, aviation, consumer electronics, and F&B. I have also led a 5 to 6 person content team at UIHTM for 12 months.
           </Reveal>
         </div>
       </div>
@@ -26,8 +26,8 @@ export function Internship() {
         {glanceStats.map((stat) => <motion.article key={stat.label} variants={staggerItem} whileHover={cardHover} className="rounded-3xl bg-card p-5 shadow-sm"><p className="text-3xl font-semibold tracking-tight md:text-4xl">{stat.value}</p><p className="mt-2 text-sm text-muted-foreground">{stat.label}</p></motion.article>)}
       </motion.div>
       <div className="mt-10 grid gap-6 md:grid-cols-2">
-        <Reveal><article className="h-full rounded-3xl bg-card p-7 shadow-sm"><p className="text-sm font-medium text-muted-foreground">Performance marketing</p><p className="mt-3 text-pretty leading-relaxed">The strongest results came from staying close to the details. A fitness campaign moved from ₹97 to ₹28 CPL through creative testing, the best single CPL was ₹25.53, and an automotive account brought in 372 leads across three ad sets.</p></article></Reveal>
-        <Reveal delay={0.08}><article className="h-full rounded-3xl bg-card p-7 shadow-sm"><p className="text-sm font-medium text-muted-foreground">Content and production</p><p className="mt-3 text-pretty leading-relaxed">I wrote 100+ scripts and appeared in 50+ videos, taking ideas from research through scripting, direction, performance, and delivery. I also worked as on-camera talent and DOP for commercial and podcast projects.</p></article></Reveal>
+        <Reveal><article className="h-full rounded-3xl bg-card p-7 shadow-sm"><p className="text-sm font-medium text-muted-foreground">Content leadership</p><p className="mt-3 text-pretty leading-relaxed">As Content Head for UIHTM during 2024 to 2025, I managed planning, shoots, editing, design, and publishing with a 5 to 6 person team. Every institutional event was promoted online, including the 11th International Hosticon.</p></article></Reveal>
+        <Reveal delay={0.08}><article className="h-full rounded-3xl bg-card p-7 shadow-sm"><p className="text-sm font-medium text-muted-foreground">Performance and creative</p><p className="mt-3 text-pretty leading-relaxed">I connect the creative and performance sides of the work, from writing and performing a script to managing campaigns, reading CPL, testing ideas, and improving the next version.</p></article></Reveal>
       </div>
     </section>
   )
