@@ -15,7 +15,7 @@ const schibsted = Schibsted_Grotesk({
 export const metadata: Metadata = {
   title: 'Jatin Manra   Social Media & Content Creator',
   description:
-    'Jatin Manra is a social media and content creator. Full-time at Hashtag Agency: 30+ brands, 1,014+ leads, 1.8M+ views reel, Meta Ads, scripts, and UGC.',
+    'Jatin Manra is a social media and content creator working across short-form video, on-camera performance, creative strategy, and Meta Ads.',
   generator: ' ',
 }
 

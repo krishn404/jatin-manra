@@ -21,11 +21,10 @@ export function About() {
           </Reveal>
           <Reveal delay={0.16}>
             <p className="mt-4 text-pretty text-lg leading-relaxed text-muted-foreground">
-              At Hashtag Agency (Feb to Apr 2026) I worked full-time across content, ads, production,
-              and strategy for 30+ brands. I owned outcomes, from 12 scripts for a real
-              estate client to a 1.8M+ views reel as on-camera talent, with 25+ videos, 25+
-              scripts, and 10+ campaigns. My goal is simple: create clean, impactful, scroll-stopping
-              content that supports a brand&apos;s growth.
+I have worked across content, ads, production, and strategy for projects in automotive, real estate,
+              fitness, aviation, consumer electronics, and F&B. I wrote 100+ scripts, appeared in 50+
+              videos, and ran campaigns that generated 1,100+ leads. My goal is simple: make clean,
+              useful creative that earns attention and supports growth.
             </p>
           </Reveal>
         </div>

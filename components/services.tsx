@@ -62,7 +62,7 @@ const services: Service[] = [
     icon: <BarChart3 className="h-5 w-5 text-sky-600" />,
     iconBg: "bg-sky-100 dark:bg-sky-500/20",
     description:
-      "I run lead-gen campaigns, A/B tests, and daily pipeline tracking. In two months at Hashtag Agency I managed ₹40,374+ in spend across 10+ live campaigns, 1,014+ leads, and a ~₹40 blended CPL, then used those numbers to decide what to scale.",
+      "I run lead-gen campaigns, A/B tests, and daily pipeline tracking. Across 10+ live campaigns, I generated 1,100+ leads at a blended CPL of around ₹40, then used the numbers to decide what to test and scale.",
     how: [
       "I update lead sheets daily and watch CPL, reach, and creative fatigue.",
       "I A/B test creatives to drop cost. A fitness campaign went from ₹97 to ₹28 CPL.",

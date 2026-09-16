@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "Do you understand analytics and ads?",
-    a: "Yes. At Hashtag Agency I managed 10+ Meta Ads campaigns, generated 1,014+ leads at ~₹40 blended CPL, and used A/B tests to drop CPL (a fitness account, ₹97 to ₹28). I still treat qualification and conversion tracking as the next skill to deepen.",
+    a: "Yes. I have managed 10+ Meta Ads campaigns, generated 1,100+ leads at around ₹40 blended CPL, and used creative A/B tests to bring a fitness account from ₹97 to ₹28 CPL. I also built a Claude and Meta Ads API workflow to reduce manual reporting.",
   },
   {
     q: "What's the best way to reach you?",

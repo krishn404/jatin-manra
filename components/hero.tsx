@@ -53,9 +53,8 @@ export function Hero() {
             className="max-w-sm md:pb-2"
           >
             <p className="text-pretty leading-relaxed text-muted-foreground">
-              I&apos;m a creative-focused Social Media &amp; Content Creator. Full-time at Hashtag
-              Agency: 30+ brands, 1.8M+ views, 1,014+ leads. Reels, scripts, and Meta Ads that look
-              good and actually work.
+              I&apos;m a creative-focused Social Media &amp; Content Creator. I write, perform, and produce short-form
+              content, then use Meta Ads and performance data to make the work more useful.
             </p>
             <motion.a
               href="#contact"
