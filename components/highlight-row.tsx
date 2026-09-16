@@ -20,19 +20,18 @@ export function HighlightRow() {
             <span className="text-3xl font-bold tracking-tight">J.</span>
             <Award className="h-6 w-6 text-amber-500" />
           </div>
-          <h3 className="mt-6 text-xl font-semibold">1.8M+ views reel</h3>
+          <h3 className="mt-6 text-xl font-semibold">2.8M+ views reel</h3>
           <p className="mt-2 leading-relaxed text-muted-foreground">
-            Written, directed, and performed in-house at Hashtag Agency. Organic
-            reach with 200+ followers from a single piece.
+            Written, directed, and performed by me. One organic piece reached more than 2.8M views.
           </p>
           <div className="mt-6 grid grid-cols-2 gap-2">
             <div className="rounded-2xl bg-muted px-4 py-4">
-              <p className="text-xl font-semibold">1.8M+</p>
+              <p className="text-xl font-semibold">2.8M+</p>
               <p className="text-xs text-muted-foreground">Views</p>
             </div>
             <div className="rounded-2xl bg-muted px-4 py-4">
-              <p className="text-xl font-semibold">200+</p>
-              <p className="text-xs text-muted-foreground">Followers</p>
+              <p className="text-xl font-semibold">50+</p>
+              <p className="text-xs text-muted-foreground">Organic views</p>
             </div>
           </div>
         </motion.div>
@@ -45,15 +44,14 @@ export function HighlightRow() {
         >
           <Quote className="h-9 w-9 fill-current opacity-90" />
           <p className="mt-6 text-pretty text-xl font-medium leading-snug">
-            Skywize Aviation called out the work on set, a reminder that showing up on camera,
-            scripting, and delivering same-day still lands with clients.
+            The best work usually comes from being involved in the whole process, from the first line of the script to the final take.
           </p>
           <div className="mt-auto flex items-center gap-3 pt-8">
             <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary-foreground/15 text-sm font-semibold">
               SW
             </div>
             <div>
-              <p className="font-medium">Skywize Aviation</p>
+              <p className="font-medium">On-camera and creative work</p>
               <p className="text-sm text-primary-foreground/70">Education · Agency client</p>
             </div>
           </div>
@@ -65,9 +63,9 @@ export function HighlightRow() {
           whileHover={cardHover}
           className="flex flex-col justify-center gap-4 rounded-3xl bg-card p-7 shadow-sm"
         >
-          <StatPill label="30+ brands in 2 months" />
-          <StatPill label="1,014+ leads generated" />
-          <StatPill label="25+ scripts · 10+ campaigns" />
+          <StatPill label="100+ scripts written" />
+          <StatPill label="1,100+ leads generated" />
+          <StatPill label="10+ live Meta campaigns" />
         </motion.div>
       </motion.div>
     </section>
