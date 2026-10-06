@@ -13,7 +13,7 @@ export function SiteNav() {
       transition={{ duration: 0.6, ease: easeOut }}
       className="w-full bg-white text-neutral-950 transition-colors duration-500 dark:bg-neutral-950 dark:text-white"
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6 md:py-8">
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-4 sm:px-6 sm:py-6 md:py-8">
         <a href="#top" className="text-lg font-semibold tracking-tight">
           Jatin Manra
         </a>
@@ -41,7 +41,7 @@ export function SiteNav() {
             whileHover={{ y: -3 }}
             whileTap={{ scale: 0.97 }}
             transition={{ type: "spring", stiffness: 400, damping: 20 }}
-            className="rounded-2xl bg-primary px-5 py-3 text-sm font-medium text-primary-foreground shadow-lg shadow-black/10"
+            className="whitespace-nowrap rounded-2xl bg-primary px-3 py-2.5 text-xs font-medium text-primary-foreground shadow-lg shadow-black/10 sm:px-5 sm:py-3 sm:text-sm"
           >
             Book a Call
           </motion.a>

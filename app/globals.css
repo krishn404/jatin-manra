@@ -166,6 +166,8 @@
   body {
     @apply bg-background text-foreground;
     transition: background-color 0.35s ease, color 0.35s ease;
+    max-width: 100%;
+    overflow-x: clip;
   }
 }
 

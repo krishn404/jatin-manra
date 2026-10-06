@@ -36,7 +36,7 @@ const columns = [
 export function FooterCta() {
   return (
     <section id="contact" className="mx-auto max-w-6xl px-6 pb-10">
-      <div className="grain relative overflow-hidden rounded-[2rem] px-6 py-20 text-white md:px-16 md:py-28">
+      <div className="grain relative overflow-hidden rounded-[2rem] px-4 py-16 text-white sm:px-6 md:px-16 md:py-28">
         <div className="flex flex-col items-center text-center">
           <RevealText
             as="h2"
@@ -71,7 +71,7 @@ export function FooterCta() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, margin: "-60px" }}
-          className="mt-20 grid gap-10 sm:grid-cols-3 md:mt-28 md:max-w-2xl"
+          className="mt-16 grid min-w-0 gap-8 sm:grid-cols-2 md:mt-28 md:max-w-2xl lg:grid-cols-3"
         >
           {columns.map((col) => (
             <motion.div key={col.title} variants={staggerItem}>
@@ -81,7 +81,7 @@ export function FooterCta() {
                   <li key={link.label}>
                     <a
                       href={link.href}
-                      className="text-white/90 transition-colors hover:text-white"
+                      className="break-words text-white/90 transition-colors hover:text-white"
                       {...(link.href.startsWith("http")
                         ? { target: "_blank", rel: "noopener noreferrer" }
                         : {})}

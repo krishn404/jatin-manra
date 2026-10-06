@@ -43,7 +43,7 @@ export function Internship() {
           >
             <span className="text-xs font-medium tracking-wide text-muted-foreground">0{index + 1}</span>
             <div className="mt-5">
-              <p className="text-2xl font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-0.5 sm:text-3xl">{value}</p>
+              <p className="text-[clamp(1.1rem,6vw,1.5rem)] font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-0.5 sm:text-3xl">{value}</p>
               <p className="mt-2 text-sm leading-snug text-muted-foreground">{label}</p>
             </div>
           </motion.article>

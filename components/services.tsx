@@ -66,7 +66,7 @@ export function Services() {
 
             <p className="mt-4 min-h-[4.5rem] px-1 text-sm leading-relaxed text-muted-foreground">{service.description}</p>
 
-            <div className="mt-4 grid grid-cols-3 gap-2" aria-label={`${service.title} focus areas`}>
+            <div className="mt-4 grid grid-cols-1 gap-2 min-[380px]:grid-cols-3" aria-label={`${service.title} focus areas`}>
               {service.deliverables.slice(0, 3).map((item, index) => (
                 <div key={item} className={`flex min-h-[104px] items-end rounded-2xl p-3 ${pastelSurfaces[index]}`}>
                   <span className="text-xs font-medium leading-snug text-neutral-700">{item}</span>

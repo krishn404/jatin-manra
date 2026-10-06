@@ -70,19 +70,21 @@ export function Faq() {
               const isOpen = open === i
               return (
                 <li key={item.q} className="rounded-2xl bg-card shadow-sm">
-                  <button
-                    type="button"
-                    onClick={() => setOpen(isOpen ? -1 : i)}
-                    aria-expanded={isOpen}
-                    className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left"
-                  >
-                    <span className="font-medium">{item.q}</span>
-                    {isOpen ? (
-                      <X className="h-5 w-5 shrink-0 text-muted-foreground" />
-                    ) : (
-                      <Plus className="h-5 w-5 shrink-0 text-muted-foreground" />
-                    )}
-                  </button>
+                  <h3 className="m-0 text-base font-medium">
+                    <button
+                      type="button"
+                      onClick={() => setOpen(isOpen ? -1 : i)}
+                      aria-expanded={isOpen}
+                      className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left"
+                    >
+                      <span>{item.q}</span>
+                      {isOpen ? (
+                        <X className="h-5 w-5 shrink-0 text-muted-foreground" />
+                      ) : (
+                        <Plus className="h-5 w-5 shrink-0 text-muted-foreground" />
+                      )}
+                    </button>
+                  </h3>
                   <AnimatePresence initial={false}>
                     {isOpen && (
                       <motion.div
