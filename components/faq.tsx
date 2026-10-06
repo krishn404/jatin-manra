@@ -7,28 +7,28 @@ import { Reveal } from "@/components/reveal"
 
 const faqs = [
   {
-    q: "What kind of content do you create?",
-    a: "Mostly short-form video   reels and shorts   along with posters, carousels, and visual stories built to grab attention and drive engagement.",
+    q: "What kind of brands do you work with?",
+    a: "I am best suited to brands that need a stronger short-form content system, consistent social media execution, or Meta Ads support. My experience includes automotive, real estate, fitness, aviation, consumer electronics, F&B, and institutional projects.",
   },
   {
-    q: "Do you only edit, or can you plan content too?",
-    a: "Both. I can plan content calendars and strategy, and I handle the creation and editing   from hook to final, platform-ready cut.",
+    q: "Do you only create content?",
+    a: "No. I work across strategy, scripting, production, publishing, Meta Ads, performance tracking, and creative optimization.",
   },
   {
-    q: "What tools do you work with?",
-    a: "Canva, CapCut/VN, Notion, and Google Workspace day to day, plus Instagram Insights and content planning sheets to stay organized.",
+    q: "Can you manage a content team?",
+    a: "Yes. As Content Head for UIHTM during 2024–2025, I led a 5–6 person team across planning, shoot direction, editing, design, publishing, and event promotion.",
   },
   {
-    q: "Can you work with my existing brand style?",
-    a: "Yes. I adapt to your voice, palette, and tone so every post feels native to your brand across platforms.",
+    q: "What results have you achieved?",
+    a: "My selected results include 1,100+ leads generated, approximately ₹40 blended CPL, a 71% CPL reduction from ₹97 to ₹28, 2.8M+ organic views on one reel, 100+ scripts, 50+ on-camera videos, and 35+ brands handled.",
   },
   {
-    q: "Do you understand analytics and ads?",
-    a: "Yes. At Hashtag Agency I managed 10+ Meta Ads campaigns, generated 1,014+ leads at ~₹40 blended CPL, and used A/B tests to drop CPL (a fitness account, ₹97 to ₹28). I still treat qualification and conversion tracking as the next skill to deepen.",
+    q: "Do you offer complete social media management?",
+    a: "Yes. Depending on the requirement, I can support content planning, creative direction, scripting, production, publishing coordination, insights review, and performance-led improvement.",
   },
   {
-    q: "What's the best way to reach you?",
-    a: "Email is fastest for new projects. Once we're working together, we can set up a shared channel for quick updates.",
+    q: "How do we start?",
+    a: "Share your current goal, brand, and biggest content or campaign challenge. We can then identify whether you need strategy, content production, Meta Ads support, or a combination of all three.",
   },
 ]
 
@@ -54,7 +54,7 @@ export function Faq() {
               transition={{ type: "spring", stiffness: 400, damping: 20 }}
               className="mt-8 inline-flex rounded-2xl bg-primary px-6 py-3.5 text-sm font-medium text-primary-foreground shadow-lg shadow-black/10"
             >
-              Email Me
+              Book a Strategy Call
             </motion.a>
           </Reveal>
         </div>

@@ -2,7 +2,7 @@
 
 import { motion } from "motion/react"
 import { Palette, LineChart, MessagesSquare, Wrench } from "lucide-react"
-import { Reveal, cardHover, staggerContainer, staggerItem } from "@/components/reveal"
+import { Reveal, staggerContainer, staggerItem } from "@/components/reveal"
 
 type SkillGroup = {
   title: string
@@ -20,8 +20,8 @@ const groups: SkillGroup[] = [
       "Scriptwriting",
       "Content Production",
       "Talking Head & UGC Videos",
-      "Creative Direction Support",
-      "Trend Research",
+      "Creative Direction",
+      "Content Research",
     ],
   },
   {
@@ -31,10 +31,9 @@ const groups: SkillGroup[] = [
     skills: [
       "Meta Ads Management",
       "A/B Testing & Lead Gen",
-      "Google Analytics (GA4 Basics)",
-      "Google Ads (Beginner)",
-      "SEO Basics",
-      "Campaign Documentation",
+      "CPL Tracking",
+      "Lead-sheet Reconciliation",
+      "Reporting & Optimization",
     ],
   },
   {
@@ -42,10 +41,10 @@ const groups: SkillGroup[] = [
     icon: <MessagesSquare className="h-5 w-5 text-sky-600" />,
     iconBg: "bg-sky-100 dark:bg-sky-500/20",
     skills: [
-      "Ownership mentality",
-      "Performance under pressure",
-      "Adaptability across 13 industries",
-      "Team support across 4 seniors",
+      "Creative Operations",
+      "Team Leadership",
+      "Production Coordination",
+      "Deadline Management",
       "Brief Interpretation",
     ],
   },
@@ -81,24 +80,28 @@ export function Skills() {
         viewport={{ once: true, margin: "-80px" }}
         className="mt-12 grid gap-6 sm:grid-cols-2"
       >
-        {groups.map((group) => (
+        {groups.map((group, index) => (
           <motion.article
             key={group.title}
             variants={staggerItem}
-            whileHover={cardHover}
-            className="rounded-3xl bg-card p-7 shadow-sm"
+            whileHover={{ y: -4, transition: { duration: 0.24, ease: "easeOut" } }}
+            className="group rounded-3xl border border-border bg-card p-6 shadow-sm transition-colors duration-300 hover:bg-muted/40 sm:p-7"
           >
-            <div className="flex items-center gap-3">
-              <span className={`flex h-10 w-10 items-center justify-center rounded-xl ${group.iconBg}`}>
-                {group.icon}
-              </span>
-              <h3 className="text-lg font-semibold">{group.title}</h3>
+            <div className="flex items-center justify-between gap-4">
+              <div className="flex items-center gap-3">
+                <span className={`flex h-11 w-11 items-center justify-center rounded-2xl ${group.iconBg}`}>
+                  {group.icon}
+                </span>
+                <h3 className="text-lg font-semibold tracking-tight">{group.title}</h3>
+              </div>
+              <span className="text-xs font-medium text-muted-foreground">0{index + 1}</span>
             </div>
-            <div className="mt-6 flex flex-wrap gap-2">
+            <div className="my-5 h-px bg-border/80 transition-colors duration-300 group-hover:bg-border" />
+            <div className="flex flex-wrap gap-2.5">
               {group.skills.map((skill) => (
                 <span
                   key={skill}
-                  className="rounded-full bg-muted px-3 py-1.5 text-sm text-foreground/80"
+                  className="rounded-full border border-border/70 bg-muted/50 px-3.5 py-2 text-sm text-foreground/80 transition-colors duration-300 group-hover:bg-background"
                 >
                   {skill}
                 </span>

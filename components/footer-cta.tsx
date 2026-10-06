@@ -2,6 +2,7 @@
 
 import { motion } from "motion/react"
 import { Reveal, RevealText, staggerContainer, staggerItem } from "@/components/reveal"
+import { contact } from "@/lib/contact"
 
 const columns = [
   {
@@ -17,17 +18,17 @@ const columns = [
   {
     title: "Connect",
     links: [
-      { label: "Instagram", href: "https://instagram.com/clipsbymanra" },
-      { label: "LinkedIn", href: "https://www.linkedin.com/in/manrajatin" },
+      { label: contact.email, href: contact.emailHref },
+      { label: contact.phone, href: contact.phoneHref },
+      { label: "Instagram", href: contact.instagram },
+      { label: "LinkedIn", href: contact.linkedin },
     ],
   },
   {
-    title: "Elsewhere",
+    title: "Start a conversation",
     links: [
-      { label: "Newsletter", href: "#contact" },
-      { label: "Press Kit", href: "#contact" },
-      { label: "Rates", href: "#contact" },
-      { label: "Book a Call", href: "mailto:hello@jordanrivera.co" },
+      { label: "Book a Strategy Call", href: contact.whatsapp },
+      { label: "Send an Enquiry", href: contact.emailHref },
     ],
   },
 ]
@@ -41,19 +42,28 @@ export function FooterCta() {
             as="h2"
             className="text-pretty text-3xl font-semibold leading-tight tracking-tight md:text-5xl"
           >
-            Book a call, and I'll take care of the rest
+            Tell me what you are trying to grow.
           </RevealText>
+          <Reveal delay={0.08}>
+            <p className="mt-5 max-w-2xl text-pretty leading-relaxed text-white/65">
+              Whether you need a content system, better short-form creative, or more disciplined Meta Ads execution, share your current goal and I will help identify the next practical step.
+            </p>
+          </Reveal>
           <Reveal delay={0.12}>
             <motion.a
-              href="mailto:hello@jordanrivera.co"
+              href={contact.whatsapp}
+              target="_blank"
+              rel="noreferrer"
               whileHover={{ y: -3 }}
               whileTap={{ scale: 0.97 }}
               transition={{ type: "spring", stiffness: 400, damping: 20 }}
               className="mt-8 inline-flex rounded-full bg-white px-8 py-4 text-sm font-medium text-black"
             >
-              Book a Call
+              Book a Strategy Call
             </motion.a>
           </Reveal>
+          <a href={contact.emailHref} className="mt-4 text-sm text-white/80 underline underline-offset-4">Send an Enquiry</a>
+          <p className="mt-4 text-sm text-white/45">I usually respond within 1–2 business days.</p>
         </div>
 
         <motion.div
@@ -87,7 +97,7 @@ export function FooterCta() {
 
         <Reveal delay={0.1} className="mt-16 flex flex-col items-start justify-between gap-4 border-t border-white/10 pt-8 text-sm text-white/40 md:flex-row md:items-center">
           <p>&copy; {new Date().getFullYear()} Jatin Manra. All rights reserved.</p>
-          <p>Social Media &amp; Content Creator</p>
+          <p>Social Media Strategist &amp; Meta Ads Specialist</p>
         </Reveal>
       </div>
     </section>
